@@ -7,7 +7,7 @@ using AsterNET.ARI.Models;
 
 namespace WebSocketARI
 {
-    public class AriConnection
+    public class AriModels
     {
         [Alias("ИмяПользователя")]
         public string Name { get; set; }

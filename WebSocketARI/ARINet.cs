@@ -7,5 +7,5 @@ using V8.AddIn;
 [ProgId("AddIn.AriNet")] // это имя COM-объекта, по которому Вы будете ее подключать
 public class AriNet : LanguageExtenderAddIn
 {
-    public AriNet() : base(typeof(WebSocketARI.AriConnection), 1000) { }
+    public AriNet() : base(typeof(WebSocketARI.AriModels), 1000) { }
 }

@@ -135,7 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddIn\AliasAttribute.cs" />
-    <Compile Include="ARIConnection.cs" />
+    <Compile Include="ARIModels.cs" />
     <Compile Include="AddIn\HasDefaultValueAttribute.cs" />
     <Compile Include="AddIn\IAsyncEvent.cs" />
     <Compile Include="AddIn\IInitDone.cs" />
