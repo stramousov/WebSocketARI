@@ -1,5 +1,7 @@
 ﻿using V8.AddIn;
 using AsterNET.ARI;
+using System;
+using AsterNET.ARI.Models;
 
 namespace WebSocketARI
 {
@@ -31,8 +33,6 @@ namespace WebSocketARI
                 ActionClient.OnConnectionStateChanged += ActionClientOnConnectionStateChanged;
 
                 ActionClient.Connect();
-
-                Console.ReadKey();
             }
             catch (Exception ex)
             {

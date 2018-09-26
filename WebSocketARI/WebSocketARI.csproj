@@ -143,12 +143,6 @@
     <Compile Include="AddIn\InitAddIn.cs" />
     <Compile Include="AddIn\LanguageExtenderAddIn.cs" />
     <Compile Include="ARINet.cs" />
-    <Compile Include="AsterNET\ARIClient.cs" />
-    <Compile Include="AsterNET\ARIException.cs" />
-    <Compile Include="AsterNET\IAriActionClient.cs" />
-    <Compile Include="AsterNET\IAriClient.cs" />
-    <Compile Include="AsterNET\IAriDispatcher.cs" />
-    <Compile Include="AsterNET\StasisEndpoint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AddIn\V8Context.cs" />
   </ItemGroup>
