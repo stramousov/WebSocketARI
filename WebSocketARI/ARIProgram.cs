@@ -23,9 +23,7 @@ namespace WebSocketARI
             try
             {
                 // Create a new Ari Connection
-                ActionClient = new AriClient(
-                    new StasisEndpoint("192.168.3.201", 8088, "test", "test"),
-                    "HelloWorld");
+                ActionClient = new AriClient(new StasisEndpoint("192.168.3.201", 8088, "test", "test"), "HelloWorld");
 
                 // Hook into required events
                 ActionClient.OnStasisStartEvent += c_OnStasisStartEvent;
